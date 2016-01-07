@@ -1,4 +1,4 @@
-from pyds.basic import Stack
+from basic import Stack
 
 def revstring(mystr):
     stack = Stack()
