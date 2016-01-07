@@ -1,12 +1,14 @@
-from basic import Stack
+# stack栈
+# 使用栈实现字符串反序输出
+from pyds.basic import Stack
 
 def revstring(mystr):
-    stack = Stack()
+    mystack = Stack()
     newstr = ''
     for ch in mystr:
-        stack.push(ch)
-    while not stack.isEmpty():
-        newstr += stack.pop()
+        mystack.push(ch)
+    while not mystack.is_empty():
+        newstr += mystack.pop()
     return newstr
 
 print(revstring('hello'))
