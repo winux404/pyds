@@ -1,5 +1,5 @@
-# stack栈
 # 使用栈实现字符串反序输出
+
 from pyds.basic import Stack
 
 def revstring(mystr):
